@@ -13,8 +13,8 @@ const DisclosureButton = () => {
             <Disclosure.Button className="flex items-center justify-center gap-4 bg-[#151719] border-none btn normal-case">
               <Image src={AavatartPlaceholder} alt="user avatar" />
               <div className="flex flex-col items-start">
-                  <span className="font-bold text-md">Kamil Kalkan</span>
-                  <span className="text-[#8899A6]">@kamilklkn</span>
+                  <span className="font-bold text-md">Thomas Meta</span>
+                  <span className="text-[#8899A6]">@tMΞTA</span>
               </div>
               <CaretDown className={`${open ? "transform rotate-180" : ""}`} />
             </Disclosure.Button>

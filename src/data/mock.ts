@@ -34,7 +34,51 @@ export const POSTS: Post[] = [
     subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
     likes: 19,
     type: "featured",
-    vr: {
+    vr1: {
+      featured: true,
+      imageUrl: "/images/placeholder/post/post_one.png",
+      price: 5,
+    },
+  },
+  /*{
+    title: "Money Boys: Whitelist Giveaway!",
+    subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
+    likes: 19,
+    type: "featured",
+    vr2: {
+      featured: true,
+      imageUrl: "/images/placeholder/post/post_one.png",
+      price: 5,
+    },
+  },*/
+  {
+    title: "Money Boys: Whitelist Giveaway!",
+    subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
+    likes: 19,
+    type: "featured",
+    vr3: {
+      featured: true,
+      imageUrl: "/images/placeholder/post/post_one.png",
+      price: 5,
+    },
+  },
+  {
+    title: "Money Boys: Whitelist Giveaway!",
+    subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
+    likes: 19,
+    type: "featured",
+    vr4: {
+      featured: true,
+      imageUrl: "/images/placeholder/post/post_one.png",
+      price: 5,
+    },
+  },
+  {
+    title: "Money Boys: Whitelist Giveaway!",
+    subtitle: `Do you like what I just created?</br>You can now add it your room, just but ut here!`,
+    likes: 19,
+    type: "featured",
+    vr5: {
       featured: true,
       imageUrl: "/images/placeholder/post/post_one.png",
       price: 5,

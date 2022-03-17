@@ -4,7 +4,7 @@ import { HeroProps } from "components/Hero";
 export const TAGS = ["All", "Land", "3D Models", "Avatars", "Your Assets"];
 
 export const HERO_DATA: HeroProps = {
-  vr: {
+  vrmarket: {
     featured: true,
     imageUrl: "/images/placeholder/post/post_one.png",
     price: 5,
@@ -52,21 +52,21 @@ export const GALLERY: Gallery = {
         {
           title: "Money Boys",
           decentraland: true,
-          imageUrl: "/images/placeholder/marketplace/gallery/moneygirl.jpeg",
+          imageUrl: "/images/placeholder/marketplace/gallery/moneymarket.jpg",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "SolGods",
           decentraland: true,
-          imageUrl: "/images/placeholder/marketplace/gallery/solgods.jpg",
+          imageUrl: "/images/placeholder/marketplace/gallery/marketgods.jpg",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
         {
           title: "DeGods",
           decentraland: true,
-          imageUrl: "/images/placeholder/marketplace/gallery/degods.png",
+          imageUrl: "/images/placeholder/marketplace/gallery/marketdegods.jpg",
           currentBid: 10,
           endingIn: "12h  43m  27s",
         },
@@ -99,7 +99,7 @@ export const GALLERY: Gallery = {
       ],
     },
     {
-      title: "Apps & Widgets",
+      title: "Services & Widgets",
       items: [
         {
           title: "Money Boy Machine",

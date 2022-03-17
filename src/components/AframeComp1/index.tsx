@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 
-export default function AframeComp () {
+export default function AframeComp1 () {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export default function AframeComp () {
       <a-scene arjs='' embedded>
         <a-entity camera />
         <a-assets>
-          <a-asset-item id="bro" src="/carinoviola.glb"></a-asset-item>
+          <a-asset-item id="bro" src="/original_jetpack/scene.gltf" ></a-asset-item>
         </a-assets>
         <a-marker preset='hiro'>
           <a-entity
@@ -25,7 +25,14 @@ export default function AframeComp () {
           />
         </a-marker>
         <a-entity camera />
-        <a-gltf-model src="#bro"></a-gltf-model>
+        <a-gltf-model src="#bro" scale="0.1 0.1 0.1" position="0 -3 -60"  rotation="0 90 0"
+        animation__rot="property:rotation;
+        dur:5000;
+        to:0 360 0;
+        loop: true;
+        easing:linear;">
+        </a-gltf-model>
+        <a-sky color="#6EBAA7"></a-sky>
       </a-scene>
     )
   }

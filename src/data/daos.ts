@@ -8,7 +8,7 @@ import { TransferTableProps } from "components/Tables/Transfer";
 import { ContractProps } from "components/Contracts";
 
 export const HERO_DATA: HeroProps = {
-  vr: {
+  vrdao: {
     featured: true,
     imageUrl: "/images/placeholder/post/post_one.png",
     price: 5,

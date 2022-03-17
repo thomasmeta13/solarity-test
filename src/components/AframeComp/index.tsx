@@ -14,8 +14,8 @@ export default function AframeComp () {
       <a-scene arjs='' embedded>
         <a-entity camera />
         <a-assets>
-          <a-asset-item id="ciao" src="/final.glb"></a-asset-item>
-          <a-asset-item id="sky" src="https://t4.ftcdn.net/jpg/02/82/07/95/360_F_282079571_H3KiNvtRoS70EWmh8xZgY2AOER30ubV2.jpg"></a-asset-item>
+          <a-asset-item id="ciao" src="/casino/scene.gltf"></a-asset-item>
+          <a-asset-item id="diooo" src="/skyyy.jpg"></a-asset-item>
         </a-assets>
         <a-marker preset='hiro'>
           <a-entity
@@ -26,8 +26,8 @@ export default function AframeComp () {
           />
         </a-marker>
         <a-entity camera />
-        <a-gltf-model src="#ciao"></a-gltf-model>
-        <a-sky src="#sky"/>
+        <a-gltf-model src="#ciao" scale="0.05 0.05 0.05" position="-10 -7 -20" rotation="0 50 0"></a-gltf-model>
+        <a-sky src="https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHRleHR1cmV8ZW58MHx8MHx8&w=1000&q=80"></a-sky>
       </a-scene>
     )
   }
